@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.contents {
+  padding: 2rem;
+  width: 50vw;
+}
+.see {
+  color: rgb(0, 0, 20);
+  transition: transform 0.6s cubic-bezier(0.37, 0, 0.63, 1);
+  animation: toggleBlur 4s infinite;
+}
+
+@keyframes toggleBlur {
+  0% {
+  }
+  100% {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    color: transparent;
+  }
+}
