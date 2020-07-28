@@ -15,10 +15,12 @@ const NavigationList = props => {
   const { items } = props;
   return (
     <div>
-      {items.map(item => {
+      {items.map((item, i) => {
         return (
           <div>
-            <Link href={"/sketches/" + item}>{"sketch " + item}</Link>
+            <Link href={"/sketches/" + item}>
+              <a>{i + " - " + item}</a>
+            </Link>
           </div>
         );
       })}

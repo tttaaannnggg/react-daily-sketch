@@ -1,1 +1,1 @@
-export const sketchList = ["vision", "again"];
+export const sketchList = ["vision", "again", "re"];
