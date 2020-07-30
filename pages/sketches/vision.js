@@ -1,4 +1,4 @@
-import styles from "./1.module.css";
+import styles from "./vision.module.css";
 export default function (props) {
   return (
     <div className={styles.container}>

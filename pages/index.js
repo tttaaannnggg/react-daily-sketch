@@ -16,7 +16,11 @@ const NavigationList = props => {
   return (
     <div>
       {items.map(item => {
-        return <Link href={"/sketches/" + item}>{"sketch " + item}</Link>;
+        return (
+          <div>
+            <Link href={"/sketches/" + item}>{"sketch " + item}</Link>
+          </div>
+        );
       })}
     </div>
   );

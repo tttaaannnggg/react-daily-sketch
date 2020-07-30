@@ -1,0 +1,24 @@
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 100vh;
+  background-color: rgb(30,30,45);
+}
+.bgtext{
+  position: absolute;
+  margin: 10vw;
+  padding: 2rem;
+  background-color: rgba(255,255,255,0.85);
+}
+
+.buttonContainer{
+  width: 25vw;
+  height: 25vh;
+  display: grid;
+  place-items: center;
+}
+.floatingButtons{
+  width: 50%;
+  height: 50%;
+  background-color: rgb(40,40,40);
+}
